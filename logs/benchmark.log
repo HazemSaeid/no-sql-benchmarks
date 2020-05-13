@@ -1,0 +1,4 @@
+Running MongoDB bulk data insertion of COVID-19 Data 
+Finished inserting data. Time was: 574.42ms 
+adding COVID-19 data to Neo4j 
+Finished inserting data. Time was: 136.42s 
