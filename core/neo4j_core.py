@@ -15,9 +15,9 @@ async def add_covid_data():
     timer = Stopwatch()
     timer.start()
     for case in cases:
-        state = neo.Node("State", name = case.state )
-        county = neo.Node("County", name = case.county)
-        cases = neo.Node("Cases", date= case.date, amount = case.cases, deaths = case.deaths)
+        state = neo.Node("State", name = case[2] )
+        county = neo.Node("County", name = case[1])
+        cases = neo.Node("Cases", date= case[0], amount = case[4], deaths = case[5])
 
         state_rel_county = neo.Relationship(state, "HAS", county)
         county_rel_cases = neo.Relationship(county, "REGISTERED", cases)

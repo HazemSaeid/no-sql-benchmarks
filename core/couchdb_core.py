@@ -11,7 +11,7 @@ db = couch['covid']
 
 async def add_covid_data_from_csv():
     covid_cases = await data_mapper.map_covid_data()
-    db.save(covid_cases)
+    db.save(json.dumps(covid_cases))
 
 
 asyncio.run(add_covid_data_from_csv())

@@ -14,6 +14,9 @@ db = client['covid']
 
 async def add_initial_covid_data():
     covid_cases = await map_covid_data()
+    copy = []
+    for case in covid_cases:
+        copy.append(case.__dict__)
     await log_service.log_event("Running MongoDB bulk data insertion of COVID-19 Data")
     timer = Stopwatch()
     timer.start()
