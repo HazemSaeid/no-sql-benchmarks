@@ -1,4 +1,19 @@
 Running MongoDB bulk data insertion of COVID-19 Data 
-Finished inserting data. Time was: 477.48ms
+Finished inserting data. Time was: 356.13ms 
+
+Retrieving 5000 documents from Mongodb 
+
+Deleting all COVID documents from Mongodb 
+Finished deleting documents. Time was: 254.47ms 
+
+
 adding COVID-19 data to Neo4j 
-Finished inserting data. Time was: 211.94s 
+Finished inserting data. Time was: 206.96s 
+
+Retrieving 5000 nodes with relationships from Neo4j 
+Finished retrieving 5000 nodes. Time was: 4.74s 
+
+Deleting COVID nodes and relationships from Neo4j 
+Finished deleting nodes and relationships . Time was: 2.39s 
+
+
