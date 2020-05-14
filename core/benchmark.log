@@ -6,7 +6,6 @@ Retrieving 5000 documents from Mongodb
 Deleting all COVID documents from Mongodb 
 Finished deleting documents. Time was: 254.47ms 
 
-
 adding COVID-19 data to Neo4j 
 Finished inserting data. Time was: 206.96s 
 
