@@ -10,6 +10,8 @@ This project focuses on the comparison of mongoDB and Neo4j. The comparisons inc
 NoSQL data processing in a relational context. 
 
 In this project, we are trying to process covid-19 data in noSQL databases with and mapping them in their specific domain.
+
+This thesis mostly focuses on insertion and reading of data in MongoDB and Neo4J
 ### Neo4j 
 
 ###### Data/Schema modelling 
