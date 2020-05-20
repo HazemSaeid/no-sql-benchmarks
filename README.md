@@ -5,6 +5,11 @@ This project focuses on the comparison of mongoDB and Neo4j. The comparisons inc
 * Scalability
 * Data/Schema modelling
 * Security
+
+### Problem statement
+NoSQL data processing in a relational context. 
+
+In this project, we are trying to process covid-19 data in noSQL databases with and mapping them in their specific domain.
 ### Neo4j 
 
 ###### Data/Schema modelling 
@@ -87,6 +92,24 @@ mongoDB is also known for horizontal scaling of documents.
 
 ###### Security
 MongoDB offers network encryption and can pass through disk encryption to help you protect your database and communications. TLS and SSL are both standard technologies that are used for encrypting network traffic.
+
+## What is sharding in MongoDB?
+Sharding in MongoDB is a method for distributing data across multiple machines. Sharding os the 'scalability' of the database, that could boost the performance because of the separated workload. Database sharding can consist in two forms: Vertical and Horizontal. 
+
+_**Vertical:**_ Increasing capacity on a single server, so that the storage, CPU and RAM increases. 
+_**Horizontal:**_ Diving dataset and the load over to multiple servers. 
+
+## What are the different components required to implement sharding?
+
+*   Shard: A subset of the sharded data distributed to the specific machine
+*   mongos: query-router. Interface for an application to communicate with a sharded cluster(applications does not communicated directly with the shards). 
+*   config-servers: Servers specially configured for sharding purposes
+
+## Explaing the architecture of sharding in MongoDB
+
+
+![](/ShardingArchitecture.PNG)
+
 
 ###### Data/Schema modelling
 The modelling process consists of designing schemas using JSON structure. 
