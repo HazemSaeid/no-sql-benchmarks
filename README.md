@@ -8,9 +8,9 @@ This project focuses on the comparison of mongoDB and Neo4j. The comparisons inc
 ### Neo4j 
 
 ###### Data/Schema modelling 
-The Graph data model is a very simple and straightforward model(Also called "Whiteboard friendly"). Its design components consist of **Nodes**, **Labels** and **Relationships**
-**Nodes:** Entities/objects
-**Labels:** Name of the Node
+The Graph data model is a very simple and straightforward model(Also called "Whiteboard friendly"). Its design components consist of **Nodes**, **Labels** and **Relationships**  
+**Nodes:** Entities/objects  
+**Labels:** Name of the Node  
 **Relationship:** The relation between a pair(or more) of nodes
 
 ###### Scalability
